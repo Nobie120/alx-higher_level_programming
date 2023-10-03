@@ -12,7 +12,10 @@ int check_cycle(listint_t *list)
 	listint_t *previous = list, *current = list;
 
 	if (!list)
+	{
+		free_listint(list);
 		return (0);
+	}
 	while (current && current->next)
 	{
 		previous = previous->next;
