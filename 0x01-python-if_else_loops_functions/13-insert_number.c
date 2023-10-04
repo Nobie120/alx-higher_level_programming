@@ -36,11 +36,6 @@ listint_t *insert_node(listint_t **head, int number)
 			current->next = node;
 			return(node);
 		}
-		if (!current->next || current->n < node->n)
-		{
-			current-next = node;
-			return (node);
-		}
 		current = current->next;
 	}
 	return (NULL);
