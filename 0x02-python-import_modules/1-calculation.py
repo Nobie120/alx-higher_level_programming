@@ -5,7 +5,7 @@ if __name__ == "__main__":
 
     a = 10
     b = 5
-    print(f"{a} + {b} = {fn.add(a, b)}")
-    print(f"{a} - {b} = {fn.sub(a, b)}")
-    print(f"{a} * {b} = {fn.mul(a, b)}")
-    print(f"{a} / {b} = {fn.div(a, b)}")
+    print("{} + {} = {}".format(a, b, fn.add(a, b)))
+    print("{} - {} = {}".format(a, b, fn.sub(a, b)))
+    print("{} * {} = {}".format(a, b, fn.mul(a, b)))
+    print("{} / {} = {}".format(a, b, fn.div(a, b)))
