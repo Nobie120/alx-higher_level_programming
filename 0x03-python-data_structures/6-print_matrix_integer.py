@@ -6,4 +6,4 @@ def print_matrix_integer(matrix=[[]]):
         for num in range(sub_matrix) - 1:
             print(
                     "{:d}".format(sub_matrix[i]),
-                    end="\n" if i == len(submatrix) - 1 else " ")
+                    end="\n" if i is len(submatrix) - 1 else " ")
