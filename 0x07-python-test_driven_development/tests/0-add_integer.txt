@@ -1,0 +1,27 @@
+The ``0-add_integer`` module
+============================
+
+testing the ``add_integer`` function
+====================================
+
+Import the function from the module:
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+One int arguement case
+should use the default second arguement:
+
+	>>> add_integer(1)
+	99
+One float case:
+
+	>>> add_integer(123.9)
+	121
+A non integer value:
+
+	>>> add_integer(one)
+	a must be an integer
+Negative int case:
+
+	>>> add_integer(-5, 10)
+	5
