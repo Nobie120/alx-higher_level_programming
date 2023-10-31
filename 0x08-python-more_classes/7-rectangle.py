@@ -60,7 +60,7 @@ class Rectangle:
         if not self.width or not self.height:
             return ""
         return ((str(self.print_symbol) * self.width + "\n")
-                * self.height) [:-1]
+                * self.height)[:-1]
 
     def __repr__(self):
         """ return a string to be able to recreate a new instance """
