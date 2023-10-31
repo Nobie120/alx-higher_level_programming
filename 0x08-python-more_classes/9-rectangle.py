@@ -95,6 +95,5 @@ class Rectangle:
 
         Args:
             size:the measurement of the new square
-        
         '''
         return cls(size, size)
