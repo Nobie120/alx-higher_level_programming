@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-''' Geometry Class Module '''
+''' BaseGeometry Class Module '''
 
 
-class GeometryClass:
-    ''' Geometry Class '''
+class BaseGeometry:
+    ''' BaseGeometry Class '''
     def area(self):
         ''' Method to compute area '''
         raise Exception("area() is not implemented")
