@@ -2,7 +2,7 @@
 ''' module for Mylist subclass '''
 
 
-class Mylist(list):
+class MyList(list):
     ''' Mylist Class '''
     def print_sorted(self):
         ''' Prints a sorted list '''
