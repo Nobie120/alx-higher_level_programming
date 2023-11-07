@@ -23,5 +23,5 @@ class Student:
         my_dict = dict()
         for key, item in self.__dict__.items():
             if key in attrs:
-                my_dict[key] = value
+                my_dict[key] = item
         return my_dict
