@@ -2,6 +2,9 @@
 ''' Module for serialization '''
 
 
+import json
+
+
 def to_json_string(my_obj):
     '''changes an object into its JSON strings
     Args:
