@@ -16,7 +16,7 @@ class Student:
         in attrs list must be retrieved '''
         try:
             for attr in attrs:
-                if type(attr) not str:
+                if type(attr) is not str:
                     return self.__dict__
         except Exception:
             return self.__dict__
