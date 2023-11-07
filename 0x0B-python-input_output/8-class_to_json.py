@@ -4,4 +4,4 @@
 
 def class_to_json(obj):
     ''' returns serializable objects '''
-   return obj.__dict__
+    return obj.__dict__
