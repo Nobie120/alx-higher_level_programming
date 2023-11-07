@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' module for class_to_json function '''
+''' module for 'class_to_json' function '''
 
 
 def class_to_json(obj):
