@@ -1,4 +1,4 @@
-#!/usr.bin/python3
+#!/usr/bin/python3
 ''' Module for reading and writing files '''
 
 
@@ -7,5 +7,5 @@ def read_file(filename=""):
     Args:
         Filename-name of file
     '''
-    with open(filename, 'r', encoding="UTF-8") as f:
-        print(f.read(), end='')
+    with open(filename, encoding="UTF-8") as f:
+        print(f.read(), end="")
