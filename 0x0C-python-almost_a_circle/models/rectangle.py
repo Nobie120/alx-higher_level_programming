@@ -44,7 +44,7 @@ class Rectangle(Base):
         @x.setter
         def x(self, value):
             ''' setter for x '''
-            self.validate_func("x", value, eq=False)
+            self.validate_func("x", value, False)
             self.__x = value
 
         @property
@@ -55,7 +55,7 @@ class Rectangle(Base):
         @y.setter
         def y(self, value):
             ''' setter for y '''
-            self.validate_func("y", value, eq=False)
+            self.validate_func("y", value, False)
             self.__y = value
 
         def validate_func(self, name, value, eq=True):
