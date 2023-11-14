@@ -13,14 +13,19 @@ should use the default second arguement:
 
 	>>> add_integer(1)
 	99
+
 One float case:
 
 	>>> add_integer(123.9)
-	121
+	221
+
 A non integer value:
 
-	>>> add_integer(one)
-	a must be an integer
+	>>> add_integer('one')
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+
 Negative int case:
 
 	>>> add_integer(-5, 10)
