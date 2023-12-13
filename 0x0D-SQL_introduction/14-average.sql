@@ -1,0 +1,2 @@
+-- calculating th average of scores
+SELECT AVG(score) AS AVERAGE FROM second_table
