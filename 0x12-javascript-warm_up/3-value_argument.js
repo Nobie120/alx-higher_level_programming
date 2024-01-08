@@ -6,4 +6,4 @@
 
 const args = process.argv;
 const arg = args[2];
-if (arg) { console.log(arg); } else { console.log('No arguement'); }
+if (arg) { console.log(arg); } else { console.log('No argument'); }
