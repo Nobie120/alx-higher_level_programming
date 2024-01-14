@@ -7,7 +7,9 @@ import sys
 
 if __name__ == "__main__":
     if len(sys.argv) < 5:
-        print(f"Usage: {sys.argv[0]} <username> <password> <database> <statename>")
+        print(
+                f"Usage: {sys.argv[0]} < username >
+                < password > < database > < statename >")
         sys.exit(1)
 
     db = MySQLdb.connect(
