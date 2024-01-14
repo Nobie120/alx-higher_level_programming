@@ -10,14 +10,15 @@ if __name__ == "__main__":
         print("Usage: {sys.argv[0]} <username> <password> <database> <rows>")
         sys.exit(1)
 
-    db = MySQLdb.connect(host="localhost", user=sys.argv[1],
+    db = MySQLdb.connect(
+            host="localhost", user=sys.argv[1],
             passwd=sys.argv[2], db=sys.argv[3], port=3306)
     cur = db.cursor()
     cur.execute("SELECT * FROM states WHERE name='{}'".format(sys.argv[4]))
     result = cur.fetchall()
 
     for row in result:
-        print (row)
+        print(row)
 
     cur.close()
     db.close()
