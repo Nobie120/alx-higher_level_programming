@@ -1,4 +1,4 @@
 #!/bin/bash
 # GET method
 
-curl -s "$1"
+curl -s -X GET "$1"
