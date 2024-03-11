@@ -12,4 +12,4 @@ const factorize = (n) => {
 };
 
 const n = parseInt(process.argv[2]);
-console.log(factorize(n));
+console.log(factorize(parseInt(n));
