@@ -10,14 +10,13 @@ class Rectangle {
 
   print () {
     if (Object.keys(this).length === 0) {
-      console.log("");
+      console.log('');
     } else {
       for (let i = 0; i < this.height; i++) {
-        console.log("X".repeat(this.width));
+        console.log('X'.repeat(this.width));
       }
     }
   }
 }
-
 
 module.exports = Rectangle;
