@@ -25,10 +25,10 @@ class Rectangle {
   }
 
   double () {
-   if (Object.keys(this).length !== 0) {
-     this.width *= 2;
-     this.height *= 2;
-   }
+    if (Object.keys(this).length !== 0) {
+      this.width *= 2;
+      this.height *= 2;
+    }
   }
 }
 
