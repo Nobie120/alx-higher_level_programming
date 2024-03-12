@@ -10,7 +10,7 @@ class Square extends Squarep {
     if (Object.keys(this).length === 0) {
       console.log('');
     } else {
-      for (let i = 0; i < this.length; i++) {
+      for (let i = 0; i < this.height; i++) {
         console.log(c.repeat(this.width));
       }
     }
