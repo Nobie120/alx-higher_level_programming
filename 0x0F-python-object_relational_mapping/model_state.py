@@ -5,7 +5,7 @@ from sqlalchemy import Column, String, Integer, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 
 mymetadata = MetaData()
-Base = declarative_base(metadata=mymetadat)
+Base = declarative_base(metadata=mymetadata)
 
 
 class State(Base):
