@@ -1,10 +1,12 @@
 #!/usr/biin/python3
 """the class definition of a State and
 an instance Base = declarative_base()"""
-from sqlalchemy import Column, String, Integer
+from sqlalchemy import Column, String, Integer, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 
-Base = declarative_base()
+mymetadata = MetaData()
+Base = declarative_base(metadata=mymetadat)
+
 
 class State(Base):
     """
