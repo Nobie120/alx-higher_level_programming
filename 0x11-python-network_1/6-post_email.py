@@ -7,6 +7,7 @@
 import requests
 import sys
 
+
 def main():
     # Check if both URL and email are provided
     if len(sys.argv) != 3:
@@ -22,6 +23,7 @@ def main():
 
     # Display body of the response
     print(response.text)
+
 
 if __name__ == "__main__":
     main()
